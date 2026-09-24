@@ -41,3 +41,5 @@ body{font-size:15px;line-height:1.45;letter-spacing:-.01em;-webkit-font-smoothin
 .row-delete{border:0;background:transparent;padding:0;color:#a0443b;cursor:pointer}
 .row-delete:hover,.row-delete:focus-visible{text-decoration:underline}
 @media(max-width:600px){.home-nav{gap:15px}.home-studio-link{min-height:40px}.studio-header-links{gap:12px}.studio-private-label{display:none}.studio-row{grid-template-columns:24px minmax(0,1fr) auto;gap:10px}.studio-row-actions{gap:9px}.studio-row-actions .row-link,.row-delete{font-size:10px}}
+.wordmark{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+.wordmark::before{content:"";display:block;flex:none;width:20px;height:20px;background:#fff radial-gradient(circle at center,#000 0 6.5px,transparent 7px)}
