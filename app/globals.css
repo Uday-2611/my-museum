@@ -29,3 +29,15 @@ body{font-size:15px;line-height:1.45;letter-spacing:-.01em;-webkit-font-smoothin
 .studio-text-button{border:0;background:none;padding:10px 0;font-size:11px;letter-spacing:.04em;cursor:pointer}
 .studio-text-button:hover{text-decoration:underline}
 .login-form .form-actions{margin-top:22px}
+.home-nav{display:flex;align-items:center;gap:clamp(18px,3vw,42px)}
+.home-studio-link{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:7px 11px;border:1px solid currentColor;font-size:10px;letter-spacing:.055em;transition:background .2s,color .2s}
+.home-studio-link:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.home-studio-link:hover{background:var(--ink);color:var(--canvas)}
+.studio-private-label{color:var(--muted);font-size:10px;letter-spacing:.07em}
+.studio-row{grid-template-columns:28px 44px minmax(0,1fr) auto auto}
+.studio-row>a{min-width:0;overflow-wrap:anywhere}
+.studio-row-actions{display:flex;align-items:center;gap:12px;white-space:nowrap}
+.studio-row-actions .row-link,.row-delete{display:inline-flex;align-items:center;min-height:44px;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.row-delete{border:0;background:transparent;padding:0;color:#a0443b;cursor:pointer}
+.row-delete:hover,.row-delete:focus-visible{text-decoration:underline}
+@media(max-width:600px){.home-nav{gap:15px}.home-studio-link{min-height:40px}.studio-header-links{gap:12px}.studio-private-label{display:none}.studio-row{grid-template-columns:24px minmax(0,1fr) auto;gap:10px}.studio-row-actions{gap:9px}.studio-row-actions .row-link,.row-delete{font-size:10px}}
