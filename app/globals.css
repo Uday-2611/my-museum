@@ -31,8 +31,8 @@ body{font-size:15px;line-height:1.45;letter-spacing:-.01em;-webkit-font-smoothin
 .login-form .form-actions{margin-top:22px}
 .home-nav{display:flex;align-items:center;gap:clamp(18px,3vw,42px)}
 .home-nav .utility-link{gap:8px}
-.home-studio-link{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:7px 11px;border:1px solid currentColor;font-size:10px;letter-spacing:.055em;white-space:nowrap;transition:background .2s,color .2s}
-.studio-admin-prefix{display:inline-block;max-width:0;overflow:hidden;opacity:0;white-space:nowrap;transition:max-width .25s ease,opacity .2s ease}
+.home-studio-link{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:7px 11px;border:1px solid currentColor;font-size:10px;letter-spacing:.055em;white-space:nowrap;transition:background-color .32s ease-in-out,color .32s ease-in-out}
+.studio-admin-prefix{display:inline-block;max-width:0;overflow:hidden;opacity:0;white-space:nowrap;transition:max-width .32s ease-in-out,opacity .32s ease-in-out}
 .home-studio-link:hover .studio-admin-prefix,.home-studio-link:focus-visible .studio-admin-prefix{max-width:48px;opacity:1}
 .home-studio-link:focus-visible{outline:2px solid currentColor;outline-offset:3px}
 .home-studio-link:hover{background:var(--ink);color:var(--canvas)}
